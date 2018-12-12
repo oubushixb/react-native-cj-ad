@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		B3E7B58A1CC2AC0600A0062D /* RNCjAd.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNCjAd.m */; };
+		C6682CFA21C14FC4005C3FA7 /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6682CF921C14FC4005C3FA7 /* UnityAds.framework */; };
+		C6682CFD21C1506B005C3FA7 /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6682CFC21C1506B005C3FA7 /* VungleSDK.framework */; };
+		C6AFB3DD21C14A92001FFFD3 /* tanvSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AFB3DB21C14A91001FFFD3 /* tanvSDK.a */; };
+		C6AFB3E821C14AB0001FFFD3 /* libGDTMobSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AFB3E421C14AAF001FFFD3 /* libGDTMobSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +30,25 @@
 		134814201AA4EA6300B7C361 /* libRNCjAd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNCjAd.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E7B5881CC2AC0600A0062D /* RNCjAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCjAd.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNCjAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCjAd.m; sourceTree = "<group>"; };
+		C6682CF921C14FC4005C3FA7 /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityAds.framework; sourceTree = "<group>"; };
+		C6682CFC21C1506B005C3FA7 /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VungleSDK.framework; sourceTree = "<group>"; };
+		C6AFB3D621C14A91001FFFD3 /* SplashSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashSDK.h; sourceTree = "<group>"; };
+		C6AFB3D721C14A91001FFFD3 /* InfoFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoFlowView.h; sourceTree = "<group>"; };
+		C6AFB3D821C14A91001FFFD3 /* AdResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AdResource.bundle; sourceTree = "<group>"; };
+		C6AFB3D921C14A91001FFFD3 /* InfoFlowSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoFlowSDK.h; sourceTree = "<group>"; };
+		C6AFB3DA21C14A91001FFFD3 /* StatSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatSDK.h; sourceTree = "<group>"; };
+		C6AFB3DB21C14A91001FFFD3 /* tanvSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = tanvSDK.a; sourceTree = "<group>"; };
+		C6AFB3DC21C14A92001FFFD3 /* SpotSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotSDK.h; sourceTree = "<group>"; };
+		C6AFB3DE21C14AAD001FFFD3 /* GDTSplashAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSplashAd.h; sourceTree = "<group>"; };
+		C6AFB3DF21C14AAD001FFFD3 /* GDTMobInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTMobInterstitial.h; sourceTree = "<group>"; };
+		C6AFB3E021C14AAD001FFFD3 /* GDTNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeAd.h; sourceTree = "<group>"; };
+		C6AFB3E121C14AAD001FFFD3 /* GDTMobBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTMobBannerView.h; sourceTree = "<group>"; };
+		C6AFB3E221C14AAE001FFFD3 /* GDTSDKDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSDKDefines.h; sourceTree = "<group>"; };
+		C6AFB3E321C14AAE001FFFD3 /* GDTNativeExpressAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeExpressAdView.h; sourceTree = "<group>"; };
+		C6AFB3E421C14AAF001FFFD3 /* libGDTMobSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGDTMobSDK.a; sourceTree = "<group>"; };
+		C6AFB3E521C14AAF001FFFD3 /* GDTRewardVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTRewardVideoAd.h; sourceTree = "<group>"; };
+		C6AFB3E621C14AAF001FFFD3 /* GDTSDKConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSDKConfig.h; sourceTree = "<group>"; };
+		C6AFB3E721C14AAF001FFFD3 /* GDTNativeExpressAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeExpressAd.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +56,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6AFB3DD21C14A92001FFFD3 /* tanvSDK.a in Frameworks */,
+				C6AFB3E821C14AB0001FFFD3 /* libGDTMobSDK.a in Frameworks */,
+				C6682CFD21C1506B005C3FA7 /* VungleSDK.framework in Frameworks */,
+				C6682CFA21C14FC4005C3FA7 /* UnityAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,10 +77,69 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				C6AFB3C821C149E0001FFFD3 /* sdks */,
 				B3E7B5881CC2AC0600A0062D /* RNCjAd.h */,
 				B3E7B5891CC2AC0600A0062D /* RNCjAd.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		C6682CFB21C1505A005C3FA7 /* VUNGLE */ = {
+			isa = PBXGroup;
+			children = (
+				C6682CFC21C1506B005C3FA7 /* VungleSDK.framework */,
+			);
+			path = VUNGLE;
+			sourceTree = "<group>";
+		};
+		C6AFB3C821C149E0001FFFD3 /* sdks */ = {
+			isa = PBXGroup;
+			children = (
+				C6682CFB21C1505A005C3FA7 /* VUNGLE */,
+				C6AFB3E921C14E94001FFFD3 /* UNITY */,
+				C6AFB3D521C14A79001FFFD3 /* TANV */,
+				C6AFB3C921C14A04001FFFD3 /* GDT */,
+			);
+			path = sdks;
+			sourceTree = "<group>";
+		};
+		C6AFB3C921C14A04001FFFD3 /* GDT */ = {
+			isa = PBXGroup;
+			children = (
+				C6AFB3E121C14AAD001FFFD3 /* GDTMobBannerView.h */,
+				C6AFB3DF21C14AAD001FFFD3 /* GDTMobInterstitial.h */,
+				C6AFB3E021C14AAD001FFFD3 /* GDTNativeAd.h */,
+				C6AFB3E721C14AAF001FFFD3 /* GDTNativeExpressAd.h */,
+				C6AFB3E321C14AAE001FFFD3 /* GDTNativeExpressAdView.h */,
+				C6AFB3E521C14AAF001FFFD3 /* GDTRewardVideoAd.h */,
+				C6AFB3E621C14AAF001FFFD3 /* GDTSDKConfig.h */,
+				C6AFB3E221C14AAE001FFFD3 /* GDTSDKDefines.h */,
+				C6AFB3DE21C14AAD001FFFD3 /* GDTSplashAd.h */,
+				C6AFB3E421C14AAF001FFFD3 /* libGDTMobSDK.a */,
+			);
+			path = GDT;
+			sourceTree = "<group>";
+		};
+		C6AFB3D521C14A79001FFFD3 /* TANV */ = {
+			isa = PBXGroup;
+			children = (
+				C6AFB3D821C14A91001FFFD3 /* AdResource.bundle */,
+				C6AFB3D921C14A91001FFFD3 /* InfoFlowSDK.h */,
+				C6AFB3D721C14A91001FFFD3 /* InfoFlowView.h */,
+				C6AFB3D621C14A91001FFFD3 /* SplashSDK.h */,
+				C6AFB3DC21C14A92001FFFD3 /* SpotSDK.h */,
+				C6AFB3DA21C14A91001FFFD3 /* StatSDK.h */,
+				C6AFB3DB21C14A91001FFFD3 /* tanvSDK.a */,
+			);
+			path = TANV;
+			sourceTree = "<group>";
+		};
+		C6AFB3E921C14E94001FFFD3 /* UNITY */ = {
+			isa = PBXGroup;
+			children = (
+				C6682CF921C14FC4005C3FA7 /* UnityAds.framework */,
+			);
+			path = UNITY;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,13 +289,22 @@
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sdks/UNITY",
+					"$(PROJECT_DIR)/sdks/VUNGLE",
+				);
 				HEADER_SEARCH_PATHS = (
-				"$(inherited)",
+					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sdks/TANV",
+					"$(PROJECT_DIR)/sdks/GDT",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNCjAd;
 				SKIP_INSTALL = YES;
@@ -219,13 +314,22 @@
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sdks/UNITY",
+					"$(PROJECT_DIR)/sdks/VUNGLE",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sdks/TANV",
+					"$(PROJECT_DIR)/sdks/GDT",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNCjAd;
 				SKIP_INSTALL = YES;
