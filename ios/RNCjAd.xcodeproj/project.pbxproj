@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F91292821C22FE6008D0092 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F91292721C22FE6008D0092 /* libxml2.tbd */; };
 		B3E7B58A1CC2AC0600A0062D /* RNCjAd.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNCjAd.m */; };
 		C6682CFA21C14FC4005C3FA7 /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6682CF921C14FC4005C3FA7 /* UnityAds.framework */; };
 		C6682CFD21C1506B005C3FA7 /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6682CFC21C1506B005C3FA7 /* VungleSDK.framework */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNCjAd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNCjAd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F91292721C22FE6008D0092 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		B3E7B5881CC2AC0600A0062D /* RNCjAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCjAd.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNCjAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCjAd.m; sourceTree = "<group>"; };
 		C6682CF921C14FC4005C3FA7 /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityAds.framework; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F91292821C22FE6008D0092 /* libxml2.tbd in Frameworks */,
 				C6AFB3DD21C14A92001FFFD3 /* tanvSDK.a in Frameworks */,
 				C6AFB3E821C14AB0001FFFD3 /* libGDTMobSDK.a in Frameworks */,
 				C6682CFD21C1506B005C3FA7 /* VungleSDK.framework in Frameworks */,
@@ -81,7 +84,16 @@
 				B3E7B5881CC2AC0600A0062D /* RNCjAd.h */,
 				B3E7B5891CC2AC0600A0062D /* RNCjAd.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				8F91292621C22FE6008D0092 /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		8F91292621C22FE6008D0092 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F91292721C22FE6008D0092 /* libxml2.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C6682CFB21C1505A005C3FA7 /* VUNGLE */ = {
