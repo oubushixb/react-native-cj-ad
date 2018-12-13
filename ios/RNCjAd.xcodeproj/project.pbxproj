@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F91292821C22FE6008D0092 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F91292721C22FE6008D0092 /* libxml2.tbd */; };
 		B3E7B58A1CC2AC0600A0062D /* RNCjAd.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNCjAd.m */; };
 		C6682CFA21C14FC4005C3FA7 /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6682CF921C14FC4005C3FA7 /* UnityAds.framework */; };
 		C6682CFD21C1506B005C3FA7 /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6682CFC21C1506B005C3FA7 /* VungleSDK.framework */; };
@@ -58,7 +57,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F91292821C22FE6008D0092 /* libxml2.tbd in Frameworks */,
 				C6AFB3DD21C14A92001FFFD3 /* tanvSDK.a in Frameworks */,
 				C6AFB3E821C14AB0001FFFD3 /* libGDTMobSDK.a in Frameworks */,
 				C6682CFD21C1506B005C3FA7 /* VungleSDK.framework in Frameworks */,
