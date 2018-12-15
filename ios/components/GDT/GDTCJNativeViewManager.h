@@ -1,5 +1,5 @@
 //
-//  GDTCJBanner.h
+//  GDTCJNativeViewManager.h
 //  RNCjAd
 //
 //  Created by 陈俊 on 2018/12/13.
@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "GDTCJNativeView.h"
 #import <React/RCTViewManager.h>
-#import "GDTMobBannerView.h"
-#import "GDTCJBannerView.h"
 
-@interface GDTCJBannerManager : RCTViewManager
+@interface GDTCJNativeViewManager : RCTViewManager
+
 @end
