@@ -1,20 +1,43 @@
-
 {
-  "name": "react-native-cj-ad",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "git+https://github.com/oubushixb/react-native-cj-ad.git",
+  "_id": "react-native-cj-ad@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-cj-ad",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "react-native-cj-ad@git+https://github.com/oubushixb/react-native-cj-ad.git",
+    "name": "react-native-cj-ad",
+    "escapedName": "react-native-cj-ad",
+    "rawSpec": "git+https://github.com/oubushixb/react-native-cj-ad.git",
+    "saveSpec": "git+https://github.com/oubushixb/react-native-cj-ad.git",
+    "fetchSpec": "https://github.com/oubushixb/react-native-cj-ad.git",
+    "gitCommittish": null
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/oubushixb/react-native-cj-ad.git#509378aade064d0ca1506bf5d48f28829ed9a83b",
+  "_spec": "react-native-cj-ad@git+https://github.com/oubushixb/react-native-cj-ad.git",
+  "_where": "/Users/chenjun/develop/dilidili/dilidiliApp",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "## Getting started",
   "keywords": [
     "react-native"
   ],
-  "author": "",
   "license": "",
+  "main": "index.js",
+  "name": "react-native-cj-ad",
   "peerDependencies": {
     "react-native": "^0.41.2",
     "react-native-windows": "0.41.0-rc.1"
-
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
 }

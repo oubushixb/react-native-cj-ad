@@ -6,17 +6,18 @@
 //  Copyright © 2018年 Facebook. All rights reserved.
 //
 
-#import "GDTCJBanner.h"
+#import "GDTCJBannerManager.h"
 
 @implementation GDTCJBannerManager
 
 RCT_EXPORT_MODULE();
 
-- (UIView *)view
+RCT_EXPORT_VIEW_PROPERTY(config, NSDictionary);
+RCT_EXPORT_VIEW_PROPERTY(onADError, RCTBubblingEventBlock)
+
+/*- (UIView *)view
 {
-    
-    //_bannerView = [[GDTMobBannerView alloc] initWithAppkey:@"1105904094" placementId:@"3050733054533683"];
-    _bannerView = [[GDTMobBannerView alloc] initWithFrame:CGRectMake(0, 0, GDTMOB_AD_SUGGEST_SIZE_468x60.width, GDTMOB_AD_SUGGEST_SIZE_468x60.height) appkey:@"1105904094" placementId:@"3050733054533683"];
+    _bannerView = [[GDTMobBannerView alloc] initWithFrame:CGRectMake(0, 0, GDTMOB_AD_SUGGEST_SIZE_468x60.width, GDTMOB_AD_SUGGEST_SIZE_468x60.height) appId:@"1105344611" placementId:@"4090812164690039"];
     _bannerView.currentViewController = [[[UIApplication sharedApplication] keyWindow] rootViewController];
     _bannerView.interval = 10;
     _bannerView.isAnimationOn = YES;
@@ -27,10 +28,10 @@ RCT_EXPORT_MODULE();
     [_bannerView loadAdAndShow];
     
     return _bannerView;
-}
+}*/
 
-- (void)bannerViewFailToReceived:(NSError *)error {
-    
+- (UIView *)view {
+    return [[GDTCJBannerView alloc] init];
 }
 
 @end

@@ -8,9 +8,14 @@
 
 #import <Foundation/Foundation.h>
 #import <React/RCTViewManager.h>
+#import "GDTMobBannerView.h"
+#import <React/RCTView.h>
 
-@interface GDTCJBannerView : UIView
+@interface GDTCJBannerView : RCTView <GDTMobBannerViewDelegate>
 
 @property (nonatomic, retain) GDTMobBannerView *bannerView;
+@property (nonatomic, strong) NSDictionary * config;
+
+@property (nonatomic, copy) RCTBubblingEventBlock onADError;
 
 @end

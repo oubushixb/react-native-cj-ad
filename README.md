@@ -50,4 +50,21 @@ import RNCjAd from 'react-native-cj-ad';
 // TODO: What to do with the module?
 RNCjAd;
 ```
+
+## 重要
+使用谷歌广告的时候.必须在app启动时加入以下代码
+```
+import {
+	ADMOBCJ
+} from 'react-native-cj-ad';
+
+let appID = 'xxx-xx-xxxxxxxxxx';
+ADMOBCJ.init(appID);
+
+```
+
+//TODO
+framework无法被static library所识别.
+1. staci library也导入了一次googleMobileads.frameworks.
+2. 需要主项目也导入googleMobileads.frameworks.
   
