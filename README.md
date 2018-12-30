@@ -50,4 +50,20 @@ import RNCjAd from 'react-native-cj-ad';
 // TODO: What to do with the module?
 RNCjAd;
 ```
+
+## 重要
+使用谷歌广告的时候.必须在app启动时加入以下代码
+```
+import {
+	ADMOBCJ
+} from 'react-native-cj-ad';
+
+let appID = 'xxx-xx-xxxxxxxxxx';
+ADMOBCJ.init(appID);
+
+```
+
+## IOS链接framework注意事项
+1.先把对应的xxx.framework复制到ios目录下.
+2.右键点击xcode的framework目录.点击add files to.找到ios目录下的xxx.framework点击添加即可.
   
