@@ -7,8 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F77A5E221C34B5800438EEC /* TANVCJNativeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F77A5E121C34B5800438EEC /* TANVCJNativeView.m */; };
+		8F77A5E521C34B7100438EEC /* TANVCJNativeViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F77A5E421C34B7100438EEC /* TANVCJNativeViewManager.m */; };
+		8F77A62421C3821800438EEC /* ADMOBCJBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F77A62321C3821800438EEC /* ADMOBCJBannerView.m */; };
+		8F77A62721C3822900438EEC /* ADMOBCJBannerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F77A62621C3822900438EEC /* ADMOBCJBannerManager.m */; };
+		8F77A64F21C3AB6A00438EEC /* ADMOBCJInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F77A64E21C3AB6A00438EEC /* ADMOBCJInterstitial.m */; };
+		8F9129D021C2371E008D0092 /* GDTCJSplash.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9129CF21C2371E008D0092 /* GDTCJSplash.m */; };
+		8F9129D421C237D7008D0092 /* TANVCJSplash.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9129D321C237D7008D0092 /* TANVCJSplash.m */; };
+		8F9129D721C23BEA008D0092 /* GDTCJBannerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9129D621C23BEA008D0092 /* GDTCJBannerManager.m */; };
+		8F9129DB21C24350008D0092 /* GDTCJBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9129DA21C24350008D0092 /* GDTCJBannerView.m */; };
+		8FDBD46421C27D2500CBE0B6 /* GDTCJNativeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDBD46321C27D2500CBE0B6 /* GDTCJNativeView.m */; };
+		8FDBD46721C27D4500CBE0B6 /* GDTCJNativeViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDBD46621C27D4500CBE0B6 /* GDTCJNativeViewManager.m */; };
+		8FFA28A921C48A14003482A0 /* UNITYCJVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA28A821C48A14003482A0 /* UNITYCJVideo.m */; };
+		8FFA28AC21C4918D003482A0 /* ADMOBCJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA28AB21C4918D003482A0 /* ADMOBCJ.m */; };
 		B3E7B58A1CC2AC0600A0062D /* RNCjAd.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNCjAd.m */; };
-		C6682CFA21C14FC4005C3FA7 /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6682CF921C14FC4005C3FA7 /* UnityAds.framework */; };
 		C6682CFD21C1506B005C3FA7 /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6682CFC21C1506B005C3FA7 /* VungleSDK.framework */; };
 		C6AFB3DD21C14A92001FFFD3 /* tanvSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AFB3DB21C14A91001FFFD3 /* tanvSDK.a */; };
 		C6AFB3E821C14AB0001FFFD3 /* libGDTMobSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AFB3E421C14AAF001FFFD3 /* libGDTMobSDK.a */; };
@@ -28,9 +40,36 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNCjAd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNCjAd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F77A5E021C34B5800438EEC /* TANVCJNativeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TANVCJNativeView.h; sourceTree = "<group>"; };
+		8F77A5E121C34B5800438EEC /* TANVCJNativeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TANVCJNativeView.m; sourceTree = "<group>"; };
+		8F77A5E321C34B7100438EEC /* TANVCJNativeViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TANVCJNativeViewManager.h; sourceTree = "<group>"; };
+		8F77A5E421C34B7100438EEC /* TANVCJNativeViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TANVCJNativeViewManager.m; sourceTree = "<group>"; };
+		8F77A62221C3821800438EEC /* ADMOBCJBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADMOBCJBannerView.h; sourceTree = "<group>"; };
+		8F77A62321C3821800438EEC /* ADMOBCJBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADMOBCJBannerView.m; sourceTree = "<group>"; };
+		8F77A62521C3822900438EEC /* ADMOBCJBannerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADMOBCJBannerManager.h; sourceTree = "<group>"; };
+		8F77A62621C3822900438EEC /* ADMOBCJBannerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADMOBCJBannerManager.m; sourceTree = "<group>"; };
+		8F77A62A21C38EC800438EEC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		8F77A64D21C3AB6A00438EEC /* ADMOBCJInterstitial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADMOBCJInterstitial.h; sourceTree = "<group>"; };
+		8F77A64E21C3AB6A00438EEC /* ADMOBCJInterstitial.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADMOBCJInterstitial.m; sourceTree = "<group>"; };
+		8F91292721C22FE6008D0092 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		8F9129CE21C2371E008D0092 /* GDTCJSplash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDTCJSplash.h; sourceTree = "<group>"; };
+		8F9129CF21C2371E008D0092 /* GDTCJSplash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDTCJSplash.m; sourceTree = "<group>"; };
+		8F9129D221C237D7008D0092 /* TANVCJSplash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TANVCJSplash.h; sourceTree = "<group>"; };
+		8F9129D321C237D7008D0092 /* TANVCJSplash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TANVCJSplash.m; sourceTree = "<group>"; };
+		8F9129D521C23BEA008D0092 /* GDTCJBannerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDTCJBannerManager.h; sourceTree = "<group>"; };
+		8F9129D621C23BEA008D0092 /* GDTCJBannerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDTCJBannerManager.m; sourceTree = "<group>"; };
+		8F9129D921C24350008D0092 /* GDTCJBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDTCJBannerView.h; sourceTree = "<group>"; };
+		8F9129DA21C24350008D0092 /* GDTCJBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDTCJBannerView.m; sourceTree = "<group>"; };
+		8FDBD46221C27D2500CBE0B6 /* GDTCJNativeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDTCJNativeView.h; sourceTree = "<group>"; };
+		8FDBD46321C27D2500CBE0B6 /* GDTCJNativeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDTCJNativeView.m; sourceTree = "<group>"; };
+		8FDBD46521C27D4500CBE0B6 /* GDTCJNativeViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDTCJNativeViewManager.h; sourceTree = "<group>"; };
+		8FDBD46621C27D4500CBE0B6 /* GDTCJNativeViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDTCJNativeViewManager.m; sourceTree = "<group>"; };
+		8FFA28A721C48A14003482A0 /* UNITYCJVideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UNITYCJVideo.h; sourceTree = "<group>"; };
+		8FFA28A821C48A14003482A0 /* UNITYCJVideo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UNITYCJVideo.m; sourceTree = "<group>"; };
+		8FFA28AA21C4918D003482A0 /* ADMOBCJ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADMOBCJ.h; sourceTree = "<group>"; };
+		8FFA28AB21C4918D003482A0 /* ADMOBCJ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADMOBCJ.m; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNCjAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCjAd.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNCjAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCjAd.m; sourceTree = "<group>"; };
-		C6682CF921C14FC4005C3FA7 /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityAds.framework; sourceTree = "<group>"; };
 		C6682CFC21C1506B005C3FA7 /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VungleSDK.framework; sourceTree = "<group>"; };
 		C6AFB3D621C14A91001FFFD3 /* SplashSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashSDK.h; sourceTree = "<group>"; };
 		C6AFB3D721C14A91001FFFD3 /* InfoFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoFlowView.h; sourceTree = "<group>"; };
@@ -59,7 +98,6 @@
 				C6AFB3DD21C14A92001FFFD3 /* tanvSDK.a in Frameworks */,
 				C6AFB3E821C14AB0001FFFD3 /* libGDTMobSDK.a in Frameworks */,
 				C6682CFD21C1506B005C3FA7 /* VungleSDK.framework in Frameworks */,
-				C6682CFA21C14FC4005C3FA7 /* UnityAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,11 +115,87 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				8F91299621C23586008D0092 /* components */,
 				C6AFB3C821C149E0001FFFD3 /* sdks */,
 				B3E7B5881CC2AC0600A0062D /* RNCjAd.h */,
 				B3E7B5891CC2AC0600A0062D /* RNCjAd.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				8F91292621C22FE6008D0092 /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		8F77A62121C3820000438EEC /* ADMOB */ = {
+			isa = PBXGroup;
+			children = (
+				8F77A62221C3821800438EEC /* ADMOBCJBannerView.h */,
+				8F77A62321C3821800438EEC /* ADMOBCJBannerView.m */,
+				8F77A62521C3822900438EEC /* ADMOBCJBannerManager.h */,
+				8F77A62621C3822900438EEC /* ADMOBCJBannerManager.m */,
+				8F77A64D21C3AB6A00438EEC /* ADMOBCJInterstitial.h */,
+				8F77A64E21C3AB6A00438EEC /* ADMOBCJInterstitial.m */,
+				8FFA28AA21C4918D003482A0 /* ADMOBCJ.h */,
+				8FFA28AB21C4918D003482A0 /* ADMOBCJ.m */,
+			);
+			path = ADMOB;
+			sourceTree = "<group>";
+		};
+		8F91292621C22FE6008D0092 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F77A62A21C38EC800438EEC /* libz.tbd */,
+				8F91292721C22FE6008D0092 /* libxml2.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F91299621C23586008D0092 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				8FFA28A621C48A01003482A0 /* UNITY */,
+				8F77A62121C3820000438EEC /* ADMOB */,
+				8F9129D121C237C3008D0092 /* TANV */,
+				8F91299721C23596008D0092 /* GDT */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		8F91299721C23596008D0092 /* GDT */ = {
+			isa = PBXGroup;
+			children = (
+				8F9129CE21C2371E008D0092 /* GDTCJSplash.h */,
+				8F9129CF21C2371E008D0092 /* GDTCJSplash.m */,
+				8F9129D521C23BEA008D0092 /* GDTCJBannerManager.h */,
+				8F9129D621C23BEA008D0092 /* GDTCJBannerManager.m */,
+				8F9129D921C24350008D0092 /* GDTCJBannerView.h */,
+				8F9129DA21C24350008D0092 /* GDTCJBannerView.m */,
+				8FDBD46221C27D2500CBE0B6 /* GDTCJNativeView.h */,
+				8FDBD46321C27D2500CBE0B6 /* GDTCJNativeView.m */,
+				8FDBD46521C27D4500CBE0B6 /* GDTCJNativeViewManager.h */,
+				8FDBD46621C27D4500CBE0B6 /* GDTCJNativeViewManager.m */,
+			);
+			path = GDT;
+			sourceTree = "<group>";
+		};
+		8F9129D121C237C3008D0092 /* TANV */ = {
+			isa = PBXGroup;
+			children = (
+				8F9129D221C237D7008D0092 /* TANVCJSplash.h */,
+				8F9129D321C237D7008D0092 /* TANVCJSplash.m */,
+				8F77A5E021C34B5800438EEC /* TANVCJNativeView.h */,
+				8F77A5E121C34B5800438EEC /* TANVCJNativeView.m */,
+				8F77A5E321C34B7100438EEC /* TANVCJNativeViewManager.h */,
+				8F77A5E421C34B7100438EEC /* TANVCJNativeViewManager.m */,
+			);
+			path = TANV;
+			sourceTree = "<group>";
+		};
+		8FFA28A621C48A01003482A0 /* UNITY */ = {
+			isa = PBXGroup;
+			children = (
+				8FFA28A721C48A14003482A0 /* UNITYCJVideo.h */,
+				8FFA28A821C48A14003482A0 /* UNITYCJVideo.m */,
+			);
+			path = UNITY;
 			sourceTree = "<group>";
 		};
 		C6682CFB21C1505A005C3FA7 /* VUNGLE */ = {
@@ -96,7 +210,6 @@
 			isa = PBXGroup;
 			children = (
 				C6682CFB21C1505A005C3FA7 /* VUNGLE */,
-				C6AFB3E921C14E94001FFFD3 /* UNITY */,
 				C6AFB3D521C14A79001FFFD3 /* TANV */,
 				C6AFB3C921C14A04001FFFD3 /* GDT */,
 			);
@@ -132,14 +245,6 @@
 				C6AFB3DB21C14A91001FFFD3 /* tanvSDK.a */,
 			);
 			path = TANV;
-			sourceTree = "<group>";
-		};
-		C6AFB3E921C14E94001FFFD3 /* UNITY */ = {
-			isa = PBXGroup;
-			children = (
-				C6682CF921C14FC4005C3FA7 /* UnityAds.framework */,
-			);
-			path = UNITY;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +303,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FFA28AC21C4918D003482A0 /* ADMOBCJ.m in Sources */,
+				8F77A64F21C3AB6A00438EEC /* ADMOBCJInterstitial.m in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNCjAd.m in Sources */,
+				8F77A62721C3822900438EEC /* ADMOBCJBannerManager.m in Sources */,
+				8F77A62421C3821800438EEC /* ADMOBCJBannerView.m in Sources */,
+				8F77A5E521C34B7100438EEC /* TANVCJNativeViewManager.m in Sources */,
+				8F9129DB21C24350008D0092 /* GDTCJBannerView.m in Sources */,
+				8FFA28A921C48A14003482A0 /* UNITYCJVideo.m in Sources */,
+				8FDBD46421C27D2500CBE0B6 /* GDTCJNativeView.m in Sources */,
+				8F9129D421C237D7008D0092 /* TANVCJSplash.m in Sources */,
+				8FDBD46721C27D4500CBE0B6 /* GDTCJNativeViewManager.m in Sources */,
+				8F77A5E221C34B5800438EEC /* TANVCJNativeView.m in Sources */,
+				8F9129D721C23BEA008D0092 /* GDTCJBannerManager.m in Sources */,
+				8F9129D021C2371E008D0092 /* GDTCJSplash.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +343,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -269,6 +388,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -289,10 +409,13 @@
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/sdks/UNITY",
 					"$(PROJECT_DIR)/sdks/VUNGLE",
+					"$(PROJECT_DIR)/sdks/ADMOB",
+					"$(PROJECT_DIR)",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,7 +428,10 @@
 					"$(PROJECT_DIR)/sdks/TANV",
 					"$(PROJECT_DIR)/sdks/GDT",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_NAME = RNCjAd;
 				SKIP_INSTALL = YES;
 			};
@@ -314,10 +440,13 @@
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/sdks/UNITY",
 					"$(PROJECT_DIR)/sdks/VUNGLE",
+					"$(PROJECT_DIR)/sdks/ADMOB",
+					"$(PROJECT_DIR)",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -330,7 +459,10 @@
 					"$(PROJECT_DIR)/sdks/TANV",
 					"$(PROJECT_DIR)/sdks/GDT",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_NAME = RNCjAd;
 				SKIP_INSTALL = YES;
 			};
