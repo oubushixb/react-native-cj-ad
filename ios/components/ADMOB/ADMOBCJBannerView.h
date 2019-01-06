@@ -12,4 +12,5 @@
 
 @interface ADMOBCJBannerView : RCTView <GADBannerViewDelegate>
 @property(nonatomic, strong) GADBannerView *bannerView;
+@property (nonatomic, copy) RCTBubblingEventBlock onSizeChange;
 @end

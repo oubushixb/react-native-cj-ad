@@ -15,6 +15,7 @@
                                  initWithAdSize:kGADAdSizeSmartBannerPortrait];
     
     self.bannerView.adUnitID = config[@"adUnitID"];
+    self.bannerView.delegate = self;
     self.bannerView.rootViewController = [[[[UIApplication sharedApplication] delegate] window] rootViewController];
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{

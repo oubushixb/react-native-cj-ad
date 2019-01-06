@@ -22,7 +22,9 @@
 		8FFA28AC21C4918D003482A0 /* ADMOBCJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA28AB21C4918D003482A0 /* ADMOBCJ.m */; };
 		B3E7B58A1CC2AC0600A0062D /* RNCjAd.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNCjAd.m */; };
 		C6682CFD21C1506B005C3FA7 /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6682CFC21C1506B005C3FA7 /* VungleSDK.framework */; };
-		C6AFB3DD21C14A92001FFFD3 /* tanvSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AFB3DB21C14A91001FFFD3 /* tanvSDK.a */; };
+		C66862EB21DF32930036AE93 /* tanvSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C66862EA21DF32930036AE93 /* tanvSDK.a */; };
+		C66862ED21DF32F20036AE93 /* AdResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C66862EC21DF32F20036AE93 /* AdResource.bundle */; };
+		C691368D21DDFD04000154F7 /* VUNGLECJVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = C691368C21DDFD04000154F7 /* VUNGLECJVideo.m */; };
 		C6AFB3E821C14AB0001FFFD3 /* libGDTMobSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AFB3E421C14AAF001FFFD3 /* libGDTMobSDK.a */; };
 /* End PBXBuildFile section */
 
@@ -71,13 +73,15 @@
 		B3E7B5881CC2AC0600A0062D /* RNCjAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCjAd.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNCjAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCjAd.m; sourceTree = "<group>"; };
 		C6682CFC21C1506B005C3FA7 /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VungleSDK.framework; sourceTree = "<group>"; };
-		C6AFB3D621C14A91001FFFD3 /* SplashSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashSDK.h; sourceTree = "<group>"; };
-		C6AFB3D721C14A91001FFFD3 /* InfoFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoFlowView.h; sourceTree = "<group>"; };
-		C6AFB3D821C14A91001FFFD3 /* AdResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AdResource.bundle; sourceTree = "<group>"; };
-		C6AFB3D921C14A91001FFFD3 /* InfoFlowSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoFlowSDK.h; sourceTree = "<group>"; };
-		C6AFB3DA21C14A91001FFFD3 /* StatSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatSDK.h; sourceTree = "<group>"; };
-		C6AFB3DB21C14A91001FFFD3 /* tanvSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = tanvSDK.a; sourceTree = "<group>"; };
-		C6AFB3DC21C14A92001FFFD3 /* SpotSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotSDK.h; sourceTree = "<group>"; };
+		C66862E521DF32920036AE93 /* SplashSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashSDK.h; sourceTree = "<group>"; };
+		C66862E621DF32920036AE93 /* InfoFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoFlowView.h; sourceTree = "<group>"; };
+		C66862E721DF32930036AE93 /* SpotSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotSDK.h; sourceTree = "<group>"; };
+		C66862E821DF32930036AE93 /* InfoFlowSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoFlowSDK.h; sourceTree = "<group>"; };
+		C66862E921DF32930036AE93 /* StatSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatSDK.h; sourceTree = "<group>"; };
+		C66862EA21DF32930036AE93 /* tanvSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = tanvSDK.a; sourceTree = "<group>"; };
+		C66862EC21DF32F20036AE93 /* AdResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AdResource.bundle; sourceTree = "<group>"; };
+		C691368B21DDFD04000154F7 /* VUNGLECJVideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VUNGLECJVideo.h; sourceTree = "<group>"; };
+		C691368C21DDFD04000154F7 /* VUNGLECJVideo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VUNGLECJVideo.m; sourceTree = "<group>"; };
 		C6AFB3DE21C14AAD001FFFD3 /* GDTSplashAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSplashAd.h; sourceTree = "<group>"; };
 		C6AFB3DF21C14AAD001FFFD3 /* GDTMobInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTMobInterstitial.h; sourceTree = "<group>"; };
 		C6AFB3E021C14AAD001FFFD3 /* GDTNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeAd.h; sourceTree = "<group>"; };
@@ -95,9 +99,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6AFB3DD21C14A92001FFFD3 /* tanvSDK.a in Frameworks */,
 				C6AFB3E821C14AB0001FFFD3 /* libGDTMobSDK.a in Frameworks */,
 				C6682CFD21C1506B005C3FA7 /* VungleSDK.framework in Frameworks */,
+				C66862EB21DF32930036AE93 /* tanvSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +155,7 @@
 		8F91299621C23586008D0092 /* components */ = {
 			isa = PBXGroup;
 			children = (
+				C691368A21DDFCE7000154F7 /* VUNGLE */,
 				8FFA28A621C48A01003482A0 /* UNITY */,
 				8F77A62121C3820000438EEC /* ADMOB */,
 				8F9129D121C237C3008D0092 /* TANV */,
@@ -206,11 +211,34 @@
 			path = VUNGLE;
 			sourceTree = "<group>";
 		};
+		C66862E421DF32800036AE93 /* TANV */ = {
+			isa = PBXGroup;
+			children = (
+				C66862EC21DF32F20036AE93 /* AdResource.bundle */,
+				C66862E821DF32930036AE93 /* InfoFlowSDK.h */,
+				C66862E621DF32920036AE93 /* InfoFlowView.h */,
+				C66862E521DF32920036AE93 /* SplashSDK.h */,
+				C66862E721DF32930036AE93 /* SpotSDK.h */,
+				C66862E921DF32930036AE93 /* StatSDK.h */,
+				C66862EA21DF32930036AE93 /* tanvSDK.a */,
+			);
+			path = TANV;
+			sourceTree = "<group>";
+		};
+		C691368A21DDFCE7000154F7 /* VUNGLE */ = {
+			isa = PBXGroup;
+			children = (
+				C691368B21DDFD04000154F7 /* VUNGLECJVideo.h */,
+				C691368C21DDFD04000154F7 /* VUNGLECJVideo.m */,
+			);
+			path = VUNGLE;
+			sourceTree = "<group>";
+		};
 		C6AFB3C821C149E0001FFFD3 /* sdks */ = {
 			isa = PBXGroup;
 			children = (
+				C66862E421DF32800036AE93 /* TANV */,
 				C6682CFB21C1505A005C3FA7 /* VUNGLE */,
-				C6AFB3D521C14A79001FFFD3 /* TANV */,
 				C6AFB3C921C14A04001FFFD3 /* GDT */,
 			);
 			path = sdks;
@@ -233,20 +261,6 @@
 			path = GDT;
 			sourceTree = "<group>";
 		};
-		C6AFB3D521C14A79001FFFD3 /* TANV */ = {
-			isa = PBXGroup;
-			children = (
-				C6AFB3D821C14A91001FFFD3 /* AdResource.bundle */,
-				C6AFB3D921C14A91001FFFD3 /* InfoFlowSDK.h */,
-				C6AFB3D721C14A91001FFFD3 /* InfoFlowView.h */,
-				C6AFB3D621C14A91001FFFD3 /* SplashSDK.h */,
-				C6AFB3DC21C14A92001FFFD3 /* SpotSDK.h */,
-				C6AFB3DA21C14A91001FFFD3 /* StatSDK.h */,
-				C6AFB3DB21C14A91001FFFD3 /* tanvSDK.a */,
-			);
-			path = TANV;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -257,6 +271,7 @@
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
+				C66862D621DF30860036AE93 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -298,12 +313,24 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		C66862D621DF30860036AE93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66862ED21DF32F20036AE93 /* AdResource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		58B511D71A9E6C8500147676 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8FFA28AC21C4918D003482A0 /* ADMOBCJ.m in Sources */,
+				C691368D21DDFD04000154F7 /* VUNGLECJVideo.m in Sources */,
 				8F77A64F21C3AB6A00438EEC /* ADMOBCJInterstitial.m in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNCjAd.m in Sources */,
 				8F77A62721C3822900438EEC /* ADMOBCJBannerManager.m in Sources */,

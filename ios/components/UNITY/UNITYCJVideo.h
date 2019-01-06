@@ -10,6 +10,9 @@
 #import <React/RCTBridgeModule.h>
 #import <UnityAds/UnityAds.h>
 
-@interface UNITYCJVideo : NSObject <RCTBridgeModule, UnityAdsDelegate>
-
+@interface UNITYCJVideo : NSObject <RCTBridgeModule, UnityAdsDelegate>{
+    RCTPromiseResolveBlock _resolveBlock;
+    RCTPromiseRejectBlock _rejectBlock;
+}
+@property (strong) NSString* activePlacementId;
 @end
