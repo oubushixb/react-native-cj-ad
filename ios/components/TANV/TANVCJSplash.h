@@ -8,11 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import "SplashSDK.h"
+#import <React/RCTBridgeModule.h>
 
-@interface TANVCJSplash : NSObject <SplashSDKDelegate>
-
-@property (retain, nonatomic) SplashSDK *splash;
-
--(void)show:(UIWindow *)window withOptions:(NSDictionary *)adOptions;
-
+@interface TANVCJSplash : NSObject <SplashSDKDelegate, RCTBridgeModule>{
+    RCTPromiseResolveBlock _resolveBlock;
+    RCTPromiseRejectBlock _rejectBlock;
+}
 @end

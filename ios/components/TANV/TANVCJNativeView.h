@@ -19,5 +19,6 @@
 @property (nonatomic, retain) InfoFlowView *flowView;
 @property (nonatomic, retain) InfoFlowSDK *infoFlowSDK;
 
+@property (nonatomic, copy) RCTBubblingEventBlock onSizeChange;
 @property (nonatomic, copy) RCTBubblingEventBlock onADError;
 @end

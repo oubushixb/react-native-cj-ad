@@ -63,7 +63,30 @@ ADMOBCJ.init(appID);
 
 ```
 
+使用Google广告
+import {
+    UNITYCJVideo
+} from 'react-native-cj-ad';
+UNITYCJVideo.init({gameId: 'xxxxx', activePlacementId: 'xxxxxx'});
+UNITYCJVideo.show().then(() => {
+	console.warn('结束了');
+});
+
+使用Vungle广告
+```
+import {
+    VUNGLECJVideo
+} from 'react-native-cj-ad';
+VUNGLECJVideo.init({appId: 'xxxxxxx', activePlacementId: 'xxxxxxx'});
+VUNGLECJVideo.show().then(() => {
+	console.warn('vungle结束了');
+});
+
+```
+
+使用Unity广告
+
 ## IOS链接framework注意事项
-1.先把对应的xxx.framework复制到ios目录下.
+1.先把对应的xxx.framework复制到ios目录下.(重要.否则编译很容易出现无法链接framework或者其他未知错误.)
 2.右键点击xcode的framework目录.点击add files to.找到ios目录下的xxx.framework点击添加即可.
   

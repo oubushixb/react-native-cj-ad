@@ -17,8 +17,18 @@ class TANVCJNativeView extends React.Component {
     static defaultProps = {
         type: 3 //巨鲨原生广告的样式类型
     }
+    constructor(props) {
+        super(props);
+        this.state = {
+          style: {},
+        };
+    }    
+    handleSizeChange(event) {
+        console.warn('event:', event);
+    }
     render(){
-        return <NativeView {...this.props} />
+        return <NativeView
+            {...this.props} />
     }
 }
 

@@ -13,7 +13,8 @@
 RCT_EXPORT_MODULE();
 
 RCT_EXPORT_VIEW_PROPERTY(config, NSDictionary);
-RCT_EXPORT_VIEW_PROPERTY(onADError, RCTBubblingEventBlock)
+RCT_EXPORT_VIEW_PROPERTY(onSizeChange, RCTBubblingEventBlock);
+RCT_EXPORT_VIEW_PROPERTY(onADError, RCTBubblingEventBlock);
 
 - (UIView *)view {
     return [[ADMOBCJBannerView alloc] init];
