@@ -443,6 +443,7 @@
 					"$(PROJECT_DIR)/sdks/VUNGLE",
 					"$(PROJECT_DIR)/sdks/ADMOB",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/../../../ios",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -474,6 +475,7 @@
 					"$(PROJECT_DIR)/sdks/VUNGLE",
 					"$(PROJECT_DIR)/sdks/ADMOB",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/../../../ios",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
